@@ -1,0 +1,15 @@
+.phone-footer {
+    font-size: 2rem;
+}
+
+.phone-icon {
+    border: 1px solid #39B5D3;
+    border-radius: 6rem;
+    width: 4rem;
+    height: 4rem;
+
+}
+
+.footer-bottom {
+    border-top: 1px solid lightgray;
+}

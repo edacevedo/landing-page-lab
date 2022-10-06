@@ -1,0 +1,73 @@
+.back-materials  {
+    position: absolute;
+    width: 100%;
+    /* right: -40%; */
+}
+
+.back-materials .back-img {
+    position: relative;
+    top: 10px;
+    height: 800px;
+    left: 85%;
+
+}
+
+.back-materials-img {
+    position: absolute;
+    width: 25%;
+    left: 80px;
+    /* top: 9px; */
+    margin-top: 180px;
+}
+
+.back-materials-title {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-image: url("../resources/img/svg/point1.svg"), url("../resources/img/svg/point2.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100px, 100px;
+    opacity: .5;
+    background-position: 20% 50px, 80% 50px;
+}
+
+
+.materials {
+    margin-bottom: 10rem;
+    /* background-image: url("../resources/img/svg/fondo1.svg"); */
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25%;
+    background-attachment: fixed;
+}
+
+.materials-title {
+    border-top: 1px solid lightgrey;
+}
+
+.card-material {
+    width: 10rem;
+    height: 12rem;
+    border-radius: .75rem;
+}
+
+.prosthesis-img {
+    border-top-right-radius: .75rem;
+    border-top-left-radius: .75rem;
+    height: 50%;
+}
+
+.cover-effect {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: #2172B2;
+    opacity: .5;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+    transition: background-color .5s;
+}
+
+.card-material:hover .cover-effect {
+    background-color: transparent;
+}

@@ -1,0 +1,54 @@
+@import "navbar.css";
+@import "carousel.css";
+@import "materials.css";
+@import "methods.css";
+@import "tips.css";
+@import "about.css";
+@import "coverage.css";
+@import "footer.css";
+
+body {
+    font-family: "Avenir";
+    color:  #5a5a5a;
+    background-color: white;
+    width: 100%;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+.white {
+  color: white;
+}
+
+.text-light-blue {
+  color: #39B5D3;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.btn-gradient {
+  background-image: linear-gradient(to right, #0D3996 , #39B5D3);
+  background-size: 110%;
+  background-position: center;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: #39B5D3;
+  border-color: #39B5D3;
+  border-radius: 1.5rem;
+}
+
+.show-opacity {
+  opacity: 0;
+  transition: opacity 2s;
+}
+.show-opacity.is-visible{
+  opacity: 1;
+}
+
+.simpleParallax {
+  overflow: visible !important;
+}

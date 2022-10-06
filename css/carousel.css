@@ -1,0 +1,249 @@
+.company {
+  top: 160px;
+  position: fixed;
+  z-index: 99;
+}
+
+.controls-container {
+  position: absolute;
+  top: 58%;
+  z-index: 99;
+}
+@media only screen and (min-width: 1200px) { 
+  .carousel-caption {
+    top: 25%;
+  } 
+  .card-carousel {
+    width: 11rem;
+    height: 18rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .controls-container {
+    top: 67%;
+  }
+  .carousel-caption {
+    top: 25%;
+  } 
+  .works {
+    min-height: 350px;
+  }
+  .card-carousel {
+    width: 11rem;
+    height: 18rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .controls-container {
+    top: 60%;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .controls-container {
+    top: 80%;
+  }
+  .carousel-caption {
+    top: 45%;
+  }
+  .back-works {
+    top: -100px;
+  }
+  .card-carousel {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .controls-container {
+    top: 65%;
+  }
+  .carousel-caption {
+    top: 25%;
+  }
+  .back-works {
+    top: -40px;
+  }
+  .works {
+    min-height: 225px;
+  }
+}
+
+.carousel-indicators {
+  position: relative;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px; 
+  border-radius: 100%;
+  background-color: #5a5a5a;
+}
+/* Since positioning the image, we need to help out the caption */
+.caption-container {
+  position: relative;
+  height: inherit;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+  color: #5a5a5a; 
+  padding: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  padding-left: 15px;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+  color: #5a5a5a; 
+  position: relative;
+  width: fit-content;
+  font-size: 1.5rem;
+  -webkit-tap-highlight-color: #5a5a5a;
+}
+
+.fa-arrow-right, .fa-arrow-left{
+  -webkit-tap-highlight-color: #5a5a5a; 
+}
+
+.carousel-control-next:before, .carousel-control-prev:before {
+  color: #5a5a5a !important;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+  color: #39B5D3 !important;
+}
+
+.carousel-indicators .active {
+  background-color: #39B5D3;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 45rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 45rem;
+}
+
+.slide-movil-img {
+  position: relative;
+  height: 50%;
+}
+
+.btn-asesor, .btn-card {
+  border-radius: 1.5rem;
+  background-image: linear-gradient(to right, #0D3996 , #39B5D3);
+  background-size: 110%;
+  background-position: center;
+  
+}
+
+.btn-asesor:hover, .btn-card:hover {
+  color: white;
+  background-color: #0D3996;
+  background-image: linear-gradient(to right, #0D3996 , #0D3996);
+}
+
+.works {
+  position: relative;
+  /* background-image: url("../resources/img/svg/fondo2.svg"), url("../resources/img/svg/fondo1.svg"); */
+  background-repeat: no-repeat, no-repeat;
+  background-position: -10% 100%, 95% 40%;
+  background-size: 40%, 30%;
+  top: -30px;
+  background-attachment: fixed;
+}
+
+.back-works {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../resources/img/png/fondo_movil1.png");
+  background-repeat: no-repeat;
+  background-position: -15%  0%;
+  background-size: 60%;
+  height: 560px;
+}
+
+.back-works-img-right {
+  position: absolute;
+  width: 30%;
+  margin-top: 150px;
+  
+}
+.back-works-img-left {
+  position: absolute;
+  left: 70%;
+  width: 20%;
+}
+
+.works-container {
+  position: relative;
+  top: -35px;
+  padding: 0px;
+}
+
+.works-img {
+  padding: 0px;
+}
+
+.card-carousel {
+  /* width: 16rem;
+  height: 18rem; */
+  border-radius: .5rem;
+}
+
+.card-img-top {
+  width: 35%;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+/* Animations */
+.hands-img {
+    width: 95%;
+    position: relative;
+    animation: hands 1s linear 0s 1; 
+    transition: width .25s;
+}
+
+.hands-img:hover {
+  width: 100%;
+  position: absolute;
+}
+
+@keyframes hands {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+
+}
+

@@ -1,0 +1,37 @@
+
+.navbar {
+  opacity: 80%;
+  padding: 0px;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.phone-button {
+  color: white;
+  background-color: #39B5D3;
+  max-height: 2.5rem;
+  min-width: 10rem;
+  border-radius: 1.5rem;
+}
+
+.phone-button:hover {
+  color: white;
+  background-color: #0D3996;
+}
+
+.home-logo-icon {
+  color: #39B5D3;
+}
+
+@media (min-width: 768px) {
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
+

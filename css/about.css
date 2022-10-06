@@ -1,0 +1,15 @@
+
+.card-about {
+    width: 20rem;
+    height: 25rem;
+    border: 0px;
+    background-color: transparent;
+}
+
+.back-about {
+    position: absolute;
+    width: 30rem;
+    left: 80%;
+    margin-top: 23rem;
+}
+

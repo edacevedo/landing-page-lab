@@ -1,0 +1,40 @@
+
+.back-tips-title {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-image: url("../resources/img/svg/point1.svg"), url("../resources/img/svg/point2.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 15% 50px, 85% 50px;
+    background-size: 100px, 100px;
+    opacity: .5;
+}
+
+.back-tips  {
+    position: absolute;
+    width: 50%;
+    right: -45%;
+}
+
+.back-tips .back-img {
+    position: relative;
+    top: -400px;
+    height: 1300px;
+}
+
+.carousel-item-tips {
+    height: fit-content;
+}
+
+.caption-tips{
+    position: unset;
+}
+
+.tips-img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.controls-tips {
+    position: unset;
+}
